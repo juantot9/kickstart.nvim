@@ -11,7 +11,8 @@ return {
   },
   cmd = 'Neotree',
   keys = {
-    { '\\', ':Neotree reveal<CR>', desc = 'NeoTree reveal', silent = true },
+    { '<leader>tg', ':Neotree filesystem reveal right git_status<CR>', desc = '[T]oggle [G]itStatus', silent = true },
+    { '<leader>tn', ':Neotree filesystem reveal right toggle<CR>', desc = '[T]oggle [N]eoTree' },
   },
   opts = {
     filesystem = {
